@@ -1,0 +1,9 @@
+name: a
+
+on: [push, workflow_dispatch]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: frangio/test-repo-2/action
