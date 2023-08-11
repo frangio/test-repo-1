@@ -8,6 +8,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: frangio/test-repo-2/action@master
+      - uses: frangio/test-repo-2/foobar@master
         env:
           GH_TOKEN: ${{ github.token }}
